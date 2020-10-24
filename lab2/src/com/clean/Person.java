@@ -31,15 +31,12 @@ public class Person {
         JOptionPane.showMessageDialog(null, "Height of the person is " + this.height);
     }
 
-    public String returnName () {
-        return this.name;
-    }
-
-    public int returnAge () {
-        return this.age;
-    }
-
-    public float returnHeight () {
-        return this.height;
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", height=" + height +
+                '}';
     }
 }

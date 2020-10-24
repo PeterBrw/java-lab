@@ -15,7 +15,7 @@ public class Main {
         }
 
         for(byte i = 0; i < people.length; i++) {
-            JOptionPane.showMessageDialog(null, people[i].returnName() + " has " + people[i].returnAge() + " years and " + people[i].returnHeight() + " m.");
+            JOptionPane.showMessageDialog(null, people[i].toString());
         }
     }
 }
